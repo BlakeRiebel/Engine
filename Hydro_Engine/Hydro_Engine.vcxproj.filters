@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Hydro_Engine.GraphicsManagment\DirectX\GraphicsProcessor.cpp">
+      <Filter>Hydro_Engine.GraphicsManagment\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager\GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{b9b13234-204f-465b-b397-4536b80d909a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hydro_Engine.GraphicsManagment">
+      <UniqueIdentifier>{eb2ecd18-31df-47a7-8612-228a3fba8f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hydro_Engine.GraphicsManagment\DirectX">
+      <UniqueIdentifier>{5f319fdd-135d-4128-8ad0-210eb3c3c971}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hydro_Engine.GraphicsManagment\DirectX\GraphicsProcessor.h">
+      <Filter>Hydro_Engine.GraphicsManagment\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager\GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
